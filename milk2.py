@@ -30,6 +30,5 @@ for i in range(0,len(merged)):
         diff = merged[i+1][0] - merged[i][1] 
         if diff > longest_no_milk:
             longest_no_milk = diff
-
 fout.write(str(longest_milk) + " " + str(longest_no_milk) + "\n")
 fout.close()
