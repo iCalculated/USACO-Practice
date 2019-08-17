@@ -6,7 +6,7 @@ TASK: namenum
 
 fin = open("namenum.in","r")
 fout = open("namenum.out","w")
-name_dict = open("namenum.out","w")
+name_dict = open("dict.txt","r")
 name_dict = name_dict.readlines().strip()
 num = int(fin.readline().strip())
 
